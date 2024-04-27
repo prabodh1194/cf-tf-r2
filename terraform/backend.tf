@@ -14,7 +14,6 @@ provider "aws" {
   secret_key = var.r2_secret
 
   skip_credentials_validation = true
-  skip_region_validation      = true
   skip_requesting_account_id  = true
 
   endpoints {
